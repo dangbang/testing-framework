@@ -1,0 +1,12 @@
+<suite name="Headless Test Suite">
+    <test name="Headless Chrome Test">
+        <packages>
+            <!-- Chạy tất cả các lớp trong package com.example.tests -->
+            <package name="part2.com.saucedemo" />
+            <!-- Loại trừ toàn bộ các lớp trong package com.example.tests.excluded -->
+            <package name="part3_4.com.demoqa">
+                <exclude name=".*" />
+            </package>
+        </packages>
+    </test>
+</suite>
